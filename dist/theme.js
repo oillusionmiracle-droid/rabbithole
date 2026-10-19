@@ -1,0 +1,1 @@
+(()=>{let mode;try{mode=localStorage.getItem('rabbithole-theme')}catch{}document.documentElement.dataset.theme=mode==='light'||mode==='dark'?mode:matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'})();
